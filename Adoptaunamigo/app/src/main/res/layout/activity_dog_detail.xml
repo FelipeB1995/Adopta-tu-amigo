@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DogDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewDog"
+            android:layout_width="92dp"
+            android:layout_height="81dp"
+            android:contentDescription="@string/perro"
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@tools:sample/avatars[2]" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/nombre_firulais"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textViewBreed"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/raza_labrador"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewAge"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/edad_2_a_os"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewSize"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/tamano"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textViewVaccination"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/vacunado_s"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewSterilization"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/esterilizado_s"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewLocation"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/ubicacion"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/firulais_es_un_perro_muy_amigable_y_juguet_n_le_encanta_jugar_con_pelotas_y_es_muy_cari_oso_con_los_ni_os"
+            android:textSize="24sp"
+            tools:ignore="TextSizeCheck" />
+
+        <Button
+            android:id="@+id/buttonConfirmAdoption"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/confirmar_adopci_n" />
+    </LinearLayout>
+</ScrollView>

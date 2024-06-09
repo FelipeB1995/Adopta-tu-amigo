@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "784404549569",
+    "project_id": "adopta-un-amigo-aabf6",
+    "storage_bucket": "adopta-un-amigo-aabf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784404549569:android:01d8eb3e7d53f2eef26940",
+        "android_client_info": {
+          "package_name": "com.ibero.adoptaunamigo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1RWCuxAnnwE7QLoXwzEKpQMos5nfopI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

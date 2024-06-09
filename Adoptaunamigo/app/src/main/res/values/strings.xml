@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Adopta un amigo</string>
+    <string name="Password">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="iniciar_sesion">INICIAR SESION</string>
+    <string name="adoptame">Adoptame</string>
+    <string name="nombre_firulais">Nombre: Firulais</string>
+    <string name="raza_labrador">Raza: Labrador</string>
+    <string name="edad_2_a_os">Edad: 2 años</string>
+    <string name="nombre_rex">Nombre: Rex</string>
+    <string name="raza_pastor_aleman">Raza: Pastor Alemán</string>
+    <string name="edad_3_a_os">Edad: 3 años</string>
+    <string name="adoptar">Adoptar</string>
+    <string name="descripcion">Descripción: Firulais es un perro muy amigable y juguetón. Le encanta jugar con pelotas y es muy cariñoso con los niños.</string>
+    <string name="ubicacion">Ubicación: Refugio ABC, Ciudad XYZ</string>
+    <string name="tamano">Tamaño: Grande</string>
+    <string name="esterilizado_s">Esterilizado: Sí</string>
+    <string name="vacunado_s">Vacunado: Sí</string>
+    <string name="confirmar_adopci_n">Confirmar Adopción</string>
+    <string name="perro">Perro</string>
+    <string name="descripcion_firulais" />
+    <string name="descripcion_rex" />
+    <string name="gracias_por_escogerme">GRACIAS POR ESCOGERME</string>
+    <string name="firulais_es_un_perro_muy_amigable_y_juguet_n_le_encanta_jugar_con_pelotas_y_es_muy_cari_oso_con_los_ni_os">Firulais es un perro muy amigable y juguetón. Le encanta jugar con pelotas y es muy cariñoso con los niños</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Perro 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/darker_gray"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="89dp"
+                android:layout_height="103dp"
+                android:contentDescription="@string/perro"
+                tools:ignore="ImageContrastCheck"
+                tools:srcCompat="@tools:sample/avatars[2]" /> <!-- Reemplaza con una imagen existente -->
+            tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:text="@string/nombre_firulais"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:text="@string/raza_labrador"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:text="@string/edad_2_a_os"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/buttonAdopt1"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:text="@string/adoptame"
+                tools:ignore="DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+        </LinearLayout>
+
+        <!-- Perro 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/darker_gray"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="113dp"
+                android:layout_height="82dp"
+                android:contentDescription="@string/perro"
+                tools:ignore="ImageContrastCheck"
+                tools:srcCompat="@tools:sample/avatars[2]" /> <!-- Reemplaza con una imagen existente -->
+            tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:text="@string/nombre_rex"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:text="@string/raza_pastor_aleman"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck,TextSizeCheck" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:text="@string/edad_3_a_os"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/buttonAdopt2"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:text="@string/adoptame"
+                tools:ignore="VisualLintButtonSize" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
